@@ -16,7 +16,7 @@ A[i + 1] = key
 #include<stdio.h>
 void insertionSort(int A[], int n){
   for(int j = 1; j < n; j++){
-    int key = A[i];
+    int key = A[j];
     int i = j - 1;
     while( (i >= 0) && (A[i] > key)){
       A[i + 1] = A[i];
